@@ -1,0 +1,12 @@
+{application, rengi,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { rengi_app, []}},
+  {env, []}
+ ]}.
